@@ -9,20 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         VStack {
             Image(systemName: "swift")
                 .imageScale(.large)
                 .foregroundStyle(.orange)
                 .padding()
-            
+
             // Dot notation modifiers
-            Text("Awesome Tutorial")
+            Text("Awesome Tutorial Test Commit")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
+                .padding()
         }
-        .padding()
-        
     }
 }
 
