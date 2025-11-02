@@ -13,12 +13,12 @@ struct ContentView: View {
             Image(systemName: "swift")
                 .imageScale(.large)
                 .foregroundStyle(.orange)
-                .padding()
 
             // Dot notation modifiers
-            Text("Awesome Tutorial Test Commit")
+            Text("Awesome Dev Environment")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
+                .multilineTextAlignment(.center)
                 .padding()
         }
     }
