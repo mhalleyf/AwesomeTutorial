@@ -10,19 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            
             Image(systemName: "swift")
                 .imageScale(.large)
                 .foregroundStyle(.orange)
-
+            
             // Dot notation modifiers
             Text("Awesome Dev Environment")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.center)
                 .padding()
+            
         }
+        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
